@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="H1ChN6" name="Juce_SketchRack" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginFormats="buildAU,buildStandalone,buildVST3"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn">
+  <MAINGROUP id="a956Ym" name="Juce_SketchRack">
+    <GROUP id="{E5BA0798-C99E-B14A-9E1F-BD9FCAE25256}" name="Source">
+      <GROUP id="{A670713F-DE3C-8585-F43F-C2A6DE1CDC3A}" name="UI">
+        <FILE id="v0rhBz" name="TextList.cpp" compile="1" resource="0" file="Source/TextList.cpp"/>
+        <FILE id="wZMVeq" name="TextList.h" compile="0" resource="0" file="Source/TextList.h"/>
+        <FILE id="a2yT3N" name="HeaderBar.cpp" compile="1" resource="0" file="Source/HeaderBar.cpp"/>
+        <FILE id="ZijB53" name="HeaderBar.h" compile="0" resource="0" file="Source/HeaderBar.h"/>
+        <FILE id="w7OnGp" name="FloatingBlockComponent.h" compile="0" resource="0"
+              file="Source/FloatingBlockComponent.h"/>
+        <FILE id="zEw3Bm" name="NewModulePopup.cpp" compile="1" resource="0"
+              file="Source/NewModulePopup.cpp"/>
+        <FILE id="YzWLlv" name="SelectionComponent.h" compile="0" resource="0"
+              file="Source/SelectionComponent.h"/>
+        <FILE id="YajUwJ" name="NewModulePopup.h" compile="0" resource="0"
+              file="Source/NewModulePopup.h"/>
+      </GROUP>
+      <FILE id="GA3U9Z" name="ModuleCache.cpp" compile="1" resource="0" file="Source/ModuleCache.cpp"/>
+      <FILE id="A9fx2D" name="ModuleCache.h" compile="0" resource="0" file="Source/ModuleCache.h"/>
+      <FILE id="Lycahm" name="Connection.cpp" compile="1" resource="0" file="Source/Connection.cpp"/>
+      <FILE id="CML48M" name="Connection.h" compile="0" resource="0" file="Source/Connection.h"/>
+      <FILE id="qdWAWb" name="SerializerManager.cpp" compile="1" resource="0"
+            file="Source/SerializerManager.cpp"/>
+      <FILE id="XJMgsy" name="SerializerManager.h" compile="0" resource="0"
+            file="Source/SerializerManager.h"/>
+      <FILE id="GPrleb" name="ProcessingManager.cpp" compile="1" resource="0"
+            file="Source/ProcessingManager.cpp"/>
+      <FILE id="Q7oj2y" name="ProcessingManager.h" compile="0" resource="0"
+            file="Source/ProcessingManager.h"/>
+      <GROUP id="{A9B1D0B6-D55F-CEFB-BC68-D69B7B808E69}" name="DSP">
+        <GROUP id="{62C8C900-E340-167E-CBB8-D74CC0520F4C}" name="Primitives">
+          <FILE id="HyQI5H" name="DSP_Noise.cpp" compile="0" resource="0" file="Source/DSP_Noise.cpp"/>
+          <FILE id="oLzO9O" name="DSP_Noise.h" compile="0" resource="0" file="Source/DSP_Noise.h"/>
+        </GROUP>
+        <FILE id="zLX9EG" name="DSP_Filter.cpp" compile="0" resource="0" file="Source/DSP_Filter.cpp"/>
+        <FILE id="YWXqWl" name="DSP_Filter.h" compile="0" resource="0" file="Source/DSP_Filter.h"/>
+        <FILE id="OYv984" name="DSP_Oscillator.cpp" compile="0" resource="0"
+              file="Source/DSP_Oscillator.cpp"/>
+        <FILE id="C6Rdr7" name="DSP_Oscillator.h" compile="0" resource="0"
+              file="Source/DSP_Oscillator.h"/>
+        <FILE id="A3NKG6" name="DSP_Output.cpp" compile="0" resource="0" file="Source/DSP_Output.cpp"/>
+        <FILE id="NY3H1D" name="DSP_Output.h" compile="0" resource="0" file="Source/DSP_Output.h"/>
+        <FILE id="Pg8MtT" name="DSP_Scope.cpp" compile="0" resource="0" file="Source/DSP_Scope.cpp"/>
+        <FILE id="TpTsx5" name="DSP_Scope.h" compile="0" resource="0" file="Source/DSP_Scope.h"/>
+        <FILE id="NzCDyM" name="DSPLogic.cpp" compile="0" resource="0" file="Source/DSPLogic.cpp"/>
+        <FILE id="A4FVgO" name="DSPLogic.h" compile="0" resource="0" file="Source/DSPLogic.h"/>
+        <FILE id="jNn5Ml" name="DSPUtility.cpp" compile="1" resource="0" file="Source/DSPUtility.cpp"/>
+        <FILE id="kLoNVF" name="DSPUtility.h" compile="0" resource="0" file="Source/DSPUtility.h"/>
+      </GROUP>
+      <GROUP id="{E1FD3949-4072-B180-46CD-A56B32E5B910}" name="ModuleElements">
+        <FILE id="cEXL7h" name="Knob.cpp" compile="1" resource="0" file="Source/Knob.cpp"/>
+        <FILE id="jEv9lQ" name="Knob.h" compile="0" resource="0" file="Source/Knob.h"/>
+        <FILE id="bFsFl8" name="PianoSwitch.cpp" compile="1" resource="0" file="Source/PianoSwitch.cpp"/>
+        <FILE id="yA1AP6" name="PianoSwitch.h" compile="0" resource="0" file="Source/PianoSwitch.h"/>
+        <FILE id="YxWVD7" name="Switch.cpp" compile="1" resource="0" file="Source/Switch.cpp"/>
+        <FILE id="f83ZlM" name="Switch.h" compile="0" resource="0" file="Source/Switch.h"/>
+        <FILE id="e7cao5" name="SwitchGrid.cpp" compile="1" resource="0" file="Source/SwitchGrid.cpp"/>
+        <FILE id="OEl0QS" name="SwitchGrid.h" compile="0" resource="0" file="Source/SwitchGrid.h"/>
+        <FILE id="Nebero" name="WireComponent.cpp" compile="1" resource="0"
+              file="Source/WireComponent.cpp"/>
+        <FILE id="Bo1iwg" name="WireComponent.h" compile="0" resource="0" file="Source/WireComponent.h"/>
+        <FILE id="cpPkV5" name="WireManager.cpp" compile="1" resource="0" file="Source/WireManager.cpp"/>
+        <FILE id="mDRAiC" name="WireManager.h" compile="0" resource="0" file="Source/WireManager.h"/>
+        <FILE id="VyQFfM" name="WireSocket.cpp" compile="1" resource="0" file="Source/WireSocket.cpp"/>
+        <FILE id="lrgyvB" name="WireSocket.h" compile="0" resource="0" file="Source/WireSocket.h"/>
+      </GROUP>
+      <GROUP id="{58AFC487-1396-122A-94BC-4C15890266E9}" name="Modules">
+        <FILE id="zaXYQ9" name="Module_ChordSequencer.cpp" compile="1" resource="0"
+              file="Source/Module_ChordSequencer.cpp"/>
+        <FILE id="eMUX1W" name="Module_ChordSequencer.h" compile="0" resource="0"
+              file="Source/Module_ChordSequencer.h"/>
+        <FILE id="CEl5u0" name="Module_Mixer.cpp" compile="1" resource="0"
+              file="Source/Module_Mixer.cpp"/>
+        <FILE id="RyTHhh" name="Module_Mixer.h" compile="0" resource="0" file="Source/Module_Mixer.h"/>
+        <FILE id="oGGKm5" name="Module_VoltKnobs.cpp" compile="1" resource="0"
+              file="Source/Module_VoltKnobs.cpp"/>
+        <FILE id="Tf0OMa" name="Module_VoltKnobs.h" compile="0" resource="0"
+              file="Source/Module_VoltKnobs.h"/>
+        <FILE id="O8w2pJ" name="ComponentDefinitions.h" compile="0" resource="0"
+              file="Source/ComponentDefinitions.h"/>
+        <FILE id="ELGxiK" name="Module_ADSR.cpp" compile="1" resource="0" file="Source/Module_ADSR.cpp"/>
+        <FILE id="S7G8gS" name="Module_ADSR.h" compile="0" resource="0" file="Source/Module_ADSR.h"/>
+        <FILE id="WGpEpD" name="Module_ClockDivide.cpp" compile="1" resource="0"
+              file="Source/Module_ClockDivide.cpp"/>
+        <FILE id="GYHanL" name="Module_ClockDivide.h" compile="0" resource="0"
+              file="Source/Module_ClockDivide.h"/>
+        <FILE id="wvf77j" name="Module_Filter.cpp" compile="1" resource="0"
+              file="Source/Module_Filter.cpp"/>
+        <FILE id="uvMEfg" name="Module_Filter.h" compile="0" resource="0" file="Source/Module_Filter.h"/>
+        <FILE id="jozCWN" name="Module_LFO.cpp" compile="1" resource="0" file="Source/Module_LFO.cpp"/>
+        <FILE id="mkzfZd" name="Module_LFO.h" compile="0" resource="0" file="Source/Module_LFO.h"/>
+        <FILE id="ZmrEI0" name="Module_Noise.cpp" compile="1" resource="0"
+              file="Source/Module_Noise.cpp"/>
+        <FILE id="QagFmj" name="Module_Noise.h" compile="0" resource="0" file="Source/Module_Noise.h"/>
+        <FILE id="bQCwVr" name="Module_Oscillator.cpp" compile="1" resource="0"
+              file="Source/Module_Oscillator.cpp"/>
+        <FILE id="fYBBUs" name="Module_Oscillator.h" compile="0" resource="0"
+              file="Source/Module_Oscillator.h"/>
+        <FILE id="PKHQQk" name="Module_Output.cpp" compile="1" resource="0"
+              file="Source/Module_Output.cpp"/>
+        <FILE id="vxzvhX" name="Module_Output.h" compile="0" resource="0" file="Source/Module_Output.h"/>
+        <FILE id="e52Ibw" name="Module_Reverb.cpp" compile="1" resource="0"
+              file="Source/Module_Reverb.cpp"/>
+        <FILE id="uMtItW" name="Module_Reverb.h" compile="0" resource="0" file="Source/Module_Reverb.h"/>
+        <FILE id="LSYTPh" name="Module_Scope.cpp" compile="1" resource="0"
+              file="Source/Module_Scope.cpp"/>
+        <FILE id="qO4g4N" name="Module_Scope.h" compile="0" resource="0" file="Source/Module_Scope.h"/>
+        <FILE id="C4HHUi" name="Module_Sequencer.cpp" compile="1" resource="0"
+              file="Source/Module_Sequencer.cpp"/>
+        <FILE id="py1a2G" name="Module_Sequencer.h" compile="0" resource="0"
+              file="Source/Module_Sequencer.h"/>
+        <FILE id="wvSMyv" name="Module_VCA.cpp" compile="1" resource="0" file="Source/Module_VCA.cpp"/>
+        <FILE id="jJW7MN" name="Module_VCA.h" compile="0" resource="0" file="Source/Module_VCA.h"/>
+        <FILE id="YhZvFt" name="ModuleIncludes.h" compile="0" resource="0"
+              file="Source/ModuleIncludes.h"/>
+        <FILE id="P43hgF" name="Module_VoltQuantizer.cpp" compile="1" resource="0"
+              file="Source/Module_VoltQuantizer.cpp"/>
+        <FILE id="iLVRRL" name="Module_VoltQuantizer.h" compile="0" resource="0"
+              file="Source/Module_VoltQuantizer.h"/>
+      </GROUP>
+      <FILE id="PX0Odq" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+      <FILE id="Mc86mR" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/CustomLookAndFeel.cpp"/>
+      <FILE id="MNpNgs" name="ModuleType.h" compile="0" resource="0" file="Source/ModuleType.h"/>
+      <FILE id="PsRZkB" name="RackView.h" compile="0" resource="0" file="Source/RackView.h"/>
+      <FILE id="AFseHm" name="RackView.cpp" compile="1" resource="0" file="Source/RackView.cpp"/>
+      <FILE id="xNggFj" name="Globals.h" compile="0" resource="0" file="Source/Globals.h"/>
+      <FILE id="phhd4h" name="Module.cpp" compile="1" resource="0" file="Source/Module.cpp"/>
+      <FILE id="hQU2xg" name="Module.h" compile="0" resource="0" file="Source/Module.h"/>
+      <FILE id="NhHTrR" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="ow8skI" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="w7DNEh" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="QZzqPN" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="FkMae0" name="Raleway-Italic-VariableFont_wght.ttf" compile="0"
+          resource="1" file="../../../../../../../Downloads/Raleway/Raleway-Italic-VariableFont_wght.ttf"/>
+    <FILE id="olI7VQ" name="Raleway-VariableFont_wght.ttf" compile="0"
+          resource="1" file="../../../../../../../Downloads/Raleway/Raleway-VariableFont_wght.ttf"/>
+    <FILE id="tEoMtB" name="Raleway-Light.ttf" compile="0" resource="1"
+          file="../../../../../../../Downloads/Raleway/static/Raleway-Light.ttf"/>
+    <FILE id="MzDWkI" name="Raleway-Medium.ttf" compile="0" resource="1"
+          file="../../../../../../../Downloads/Raleway/static/Raleway-Medium.ttf"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Juce_SketchRack"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Juce_SketchRack"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
